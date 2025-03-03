@@ -1,0 +1,100 @@
+body {
+    background-color: #F0F7EE;
+}
+
+#home {
+    background-image: url("ny.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #C4D7F2;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+    display: inline;
+}
+.nav-main {
+    display: block;
+    padding: 14px 16px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.nav-link {
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 0;
+}
+li a:hover {
+    background-color: #3A506B;
+    color: black;
+}
+
+#title {
+    text-shadow: 0 0 5px black;
+    font-size: 70px;
+    color: white;
+    margin-top: 25%;
+    text-align: center;
+}
+
+#etitle {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+.essay {
+    text-align: center;
+    text-align: justify;
+    margin: 30px 20%;
+    line-height: 2.5;
+    word-spacing: 5px;
+    font-size: 18px;
+}
+
+#more {
+    margin-top: 500px;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-bottom: 8%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px 75px;
+}
+
+iframe {
+    margin-top: 51.5px;
+}
+
+#carouselExampleCaptions {
+    margin: 20px 15%;
+}
+#pictitle {
+    text-align: center;
+    margin-top: 100px
+}
+#links {
+    list-style-type: none;
+
+}
+.row {
+    margin: 40px 0;
+}
+.btn {
+    background-color: #C4D7F2;
+    border-color: #C4D7F2;
+    color: black;
+}
